@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed&display=swap');
+
+/*----------------------- Navbar ----------------*/
+
+#navbarDropdownMenuLink {
+    position: right;
+}
+
+.nav-link {
+    background-color: #868686;
+}
+
+.navbar {
+    background-color: #868686;
+}
