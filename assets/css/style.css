@@ -4,12 +4,23 @@
 
 #navbarDropdownMenuLink {
     position: right;
+    font-family: "Roboto Condenced", sans-serif;
+    font-weight: 200;
 }
 
 .nav-link {
-    background-color: #868686;
+    background-color: #rgba(134, 134, 134, 0.5);
+}
+
+.nav-link:hover {
+    color: #fff;
 }
 
 .navbar {
-    background-color: #868686;
+background-color:rgba(134, 134, 134, 0.5);
+}
+.navbar-brand {
+    font-family: "Noto Serif", sans-serif;
+    font-weight: 400;
+
 }
