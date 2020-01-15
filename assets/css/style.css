@@ -39,7 +39,10 @@
 
 #logo-container {
     text-align: center;
-    max-width: 100%;
+    display: inline-block flexbox;
+    zoom: 1;
+    width: 100%;
+    margin-top: 15px;
 }
 
 /*----------------------- Jumbotron ----------------*/
@@ -47,6 +50,20 @@
 .jumbotron {
     font-family: "Noto Serif", sans-serif;
     font-weight: 200;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.history-header {
+    font-family: "Roboto Condenced", sans-serif;
+}
+
+.btn-info {
+    background-color: #4682B4; 
+}
+
+#callout-link {
+    color: #fff;
+    text-decoration: none;
 }
 
 
