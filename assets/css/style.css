@@ -30,6 +30,10 @@
     display: inline-block;
 }
 
+#countries:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /*----------------------- images and logos ----------------*/
 
 .media {
@@ -45,12 +49,17 @@
     margin-top: 15px;
 }
 
+.mr-2, .mx-2 {
+    margin-right: 4rem!important;
+}
+
 /*----------------------- Jumbotron ----------------*/
 
 .jumbotron {
     font-family: "Noto Serif", sans-serif;
     font-weight: 200;
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(0, 0, 0, 0);
+    width: 70%;
 }
 
 .history-header {
@@ -58,12 +67,27 @@
 }
 
 .btn-info {
-    background-color: #4682B4; 
+    background-color: #4682B4;
+    margin-top: 5px;
 }
+
+.btn-info:hover {
+   background-color: #4682B4; 
+}
+
 
 #callout-link {
     color: #fff;
     text-decoration: none;
+}
+
+
+#btn-read-more {
+    color: #fff;
+}
+
+#btn-read-more:hover {
+    background-color: #4682B4;
 }
 
 
