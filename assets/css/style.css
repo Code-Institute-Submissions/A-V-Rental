@@ -1,7 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed&display=swap');
 
 /*----------------------- Navbar ----------------*/
+.dropdown {
+    display: inline-block;
+    margin-top: auto;
+}
 
+.nav-item {
+    display: inline-block;
+    font-family: "Noto Serif", sans-serif;
+    color: #000;
+}
+
+.brand-logo {
+    display: inline-block;
+    font-family: "Noto Serif", sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.heading-container {
+    margin-top: 15px;
+}
+
+.dropdown-toggle {
+    color: #000;
+    
+}
 
 
 /*----------------------- images and logos ----------------*/
@@ -54,6 +79,7 @@
 
 .btn-global {
     color: #fff;
+    justify-content: center;
 }
 
 #btn-read-more:hover {
