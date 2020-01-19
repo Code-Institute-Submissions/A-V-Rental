@@ -2,41 +2,8 @@
 
 /*----------------------- Navbar ----------------*/
 
-#navbarDropdownMenuLink {
-    font-family: "Roboto Condenced", sans-serif;
-    font-weight: 200;
-}
 
-.nav-link {
-    background-color: rgba(134, 134, 134, 0.0);
-    
-}
 
-.navbar {
-    background-color:rgba(134, 134, 134, 0.1);
-    align-content: center;    
-}
-.navbar-brand {
-    font-family: "Noto Serif", sans-serif;
-    font-weight: 400;
-
-}
-
-.container-fluid {
-    text-align: center;
-}
-
-.collapse {
-    display: inline-block;
-}
-
-#countries:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.countries-dropdown {
-   justify-content: flex-end; 
-}
 /*----------------------- images and logos ----------------*/
 
 .media {
