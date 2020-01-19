@@ -15,43 +15,47 @@
 </head>
 <body>
     <header> 
-        <div class="row">
-            <div class="col-12">
-                    <nav class="navbar navbar-light navbar-expand-sm">
-                    <a href="/home" class="navbar-brand">A&V Rental</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                        <nav class="navbar navbar-light navbar-expand-sm">
+                        <a href="/home" class="navbar-brand">A&V Rental</a>
                 
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="active nav-item mr-4"><a class="nav-link hvr-grow" href="">Rent</a></li>
-                        <li class="active nav-item mr-4"><a class="nav-link hvr-grow" href="">Contact</a></li>
-                        <li class="active nav-item mr-4"><a class="nav-link hvr-grow" href="">Reviews</a></li>
-                        <li class="active nav-item dropdown">
-                            <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Countries</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item hvr-grow" id="countries" href="#">Irland</a>
-                                <a class="dropdown-item hvr-grow" id="countries" href="#">Sweden</a>
-                                <a class="dropdown-item hvr-grow" id="countries" href="#">USA</a>
-                                <a class="dropdown-item hvr-grow" id="countries" href="#">Norway</a>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="active nav-item mr-4"><a class="nav-link hvr-grow" href="">Rent</a></li>
+                            <li class="active nav-item mr-4"><a class="nav-link hvr-grow" href="">Contact</a></li>
+                            <li class="active nav-item mr-4"><a class="nav-link hvr-grow" href="">Reviews</a></li>
+                            <div class="col counntries-dropdown mr-auto">
+                                <li class="active nav-item dropdown">
+                                    <a class="active nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Countries</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item hvr-grow" id="countries" href="#">Irland</a>
+                                        <a class="dropdown-item hvr-grow" id="countries" href="#">Sweden</a>
+                                        <a class="dropdown-item hvr-grow" id="countries" href="#">USA</a>
+                                        <a class="dropdown-item hvr-grow" id="countries" href="#">Norway</a>
+                                    </div>
+                                </li>
                             </div>
-                        </li>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> 
     <!--Logos--------------------------------------------------->
         <div class="container-fluid" id="logo-container">
             <div class="row">
                 <div class="col-12">
                     <media class="container-flex">
-                        <img src="../assets/logos/Benz.jpeg" class="rounded-circle mr-2" height="50" width="60">
-                        <img src="../assets/logos/BMW.jpeg" class="rounded-circle mr-2" height="50" width="50">
-                        <img src="../assets/logos/Ford.jpeg" class="rounded-circle mr-2" height="50" width="60">
-                        <img src="../assets/logos/Mazda.jpeg" class="rounded-circle mr-2" height="50" width="60">
-                        <img src="../assets/logos/Nissan.jpeg" class="rounded-circle mr-2" height="50" width="50">
-                        <img src="../assets/logos/Volvo.jpeg" class="rounded-circle mr-2" height="50" width="60">
+                        <img src="./assets/logos/Benz.jpeg" class="rounded-circle mr-2" height="50" width="60">
+                        <img src="./assets/logos/BMW.jpeg" class="rounded-circle mr-2" height="50" width="50">
+                        <img src="./assets/logos/Ford.jpeg" class="rounded-circle mr-2" height="50" width="60">
+                        <img src="./assets/logos/Mazda.jpeg" class="rounded-circle mr-2" height="50" width="60">
+                        <img src="./assets/logos/Nissan.jpeg" class="rounded-circle mr-2" height="50" width="50">
+                        <img src="./assets/logos/Volvo.jpeg" class="rounded-circle mr-2" height="50" width="60">
                     </div>
                 </div>
             </div>        
@@ -67,7 +71,7 @@
                     the tradition and keeping true to our family legacy we have expanded
                     to Central Europe and the USA! Come check us out!
                 </p>
-                <p><a href="#" class="btn btn-sm btn-info hvr-grow" id="btn-read-more">Read More</a> </p>
+                <p><a href="#" class="btn btn-sm btn-info hvr-grow btn-global" id="btn-read-more">Read More</a> </p>
             </section>
         </article>
     <!--Callout----------------------------------->
@@ -77,7 +81,7 @@
                     , any model and make for a flat daily rate of<strong><mark>25.99€</mark></strong>
                     <br> <strong>Stop counting miles and Rent a Car!</strong>
                     <br> <button class="btn btn-info hvr-grow">
-                        <a href="#" id="callout-link">Find a Car</a>
+                        <a href="#" class="btn-global" id="callout-link">Find a Car</a>
                     </button>
                 </p>
             </section>
