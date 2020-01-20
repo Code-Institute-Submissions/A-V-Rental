@@ -11,20 +11,41 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>
-    <title>A&V Car Rental</title>
+    <title class="fa fa-car">A&V Car Rental</title>
 </head>
 <body>
-
-<header> 
-    <div class="container">
+    <div class="container-fluid link-container">
         <div class="row">
-            <div class="col">
+            <div class="col-12">
                 <nav class="navbar navbar-light navbar-expand-sm bg-light">
-                    <a href="/" class="navbar-brand">A&V Rental</a></nav>
+                    <a href="/" class="navbar-brand">Whiskey Drop</a>
+
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                                <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Irish</a>
+                                        <a class="dropdown-item" href="#">Scotch</a>
+                                        <a class="dropdown-item" href="#">Japanese</a>
+                                        <a class="dropdown-item" href="#">American</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-none d-md-block">
+                            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
+                            <a href="/login">Sign In / Sign Up</a>
+                        </div>
+                </nav>
             </div>
-        
         </div>
-    
     </div>
   
     <!--Logos--------------------------------------------------->
@@ -42,10 +63,10 @@
                 </div>
             </div>        
         </div>
-    </header>
+    
     <section>
     <!--History--------------------------------->
-        <article class="container-fluid jumbotron">
+        <article class="container jumbotron">
             <section class="history">
                 <h1 class="history-header">Any Car, Anywhere, Anytime!</h1>
                 <p>Here at Arthur and Vernin we've been trusted to deliver timely
@@ -53,17 +74,18 @@
                     the tradition and keeping true to our family legacy we have expanded
                     to Central Europe and the USA! Come check us out!
                 </p>
-                <p><a href="#" class="btn btn-sm btn-info hvr-grow btn-global" id="btn-read-more">Read More</a> </p>
+                <button class="btn btn-info btn-sm hvr-grow">
+                        <a href="#" class="btn-global">Read More</a>
             </section>
         </article>
     <!--Callout----------------------------------->
-        <article class="container-fluid jumbotron">
+        <article class="container jumbotron">
             <section class="callout">
                 <p>Take advantge of our deals today! For a limited time rent any car
                     , any model and make for a flat daily rate of<strong><mark>25.99€</mark></strong>
                     <br> <strong>Stop counting miles and Rent a Car!</strong>
                     <br> <button class="btn btn-info hvr-grow">
-                        <a href="#" class="btn-global" id="callout-link">Find a Car</a>
+                        <a href="#" class="btn-global">Find a Car</a>
                     </button>
                 </p>
             </section>
