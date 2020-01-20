@@ -10,49 +10,14 @@ body {
 
 /*----------------------- Navbar ----------------*/
 
-.heading-box {
-    margin-top: 20px;
-}
-
 .navbar-brand {
-    background-color: rgba(0, 0, 0, 0);
-    color: #C0C0C0;
+    color: #c0c0c0;
+    font-family: "Noto Serif", sans-serif;
 }
 
-.account {
-    display: inline-block;
-    align-content: right;
-}
-
-
-@media only screen and (max-width: 1185px) {
-  .navbar-text {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 810px) {
-  .account {
-    display: none;
-  }
-}
-
-.dropdown-item:hover {
+.bg-light {
     background-color: rgba(0, 0, 0, 0);
 }
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.nav-link {
-    display: inline-block;
-    padding-right: auto;
-    font-family: "Roboto Condenced", sans-serif;
-    color: #C0C0C0
-}
-
 
 /*----------------------- images and logos ----------------*/
 
@@ -90,14 +55,14 @@ body {
     text-align: center;
     padding: 4rem 2rem;
     margin-bottom: 20px;
-    color: #fff;
+    color: #C0C0C0;
     
 }
 
 
 .history-header {
     font-family: "Roboto Condenced", sans-serif;
-    color: #fff;
+    color: #C0C0C0;
 }
 
 .btn-info {
