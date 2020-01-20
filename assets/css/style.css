@@ -10,14 +10,13 @@ body {
 
 /*----------------------- Navbar ----------------*/
 
-.head-links {
-    display: inline-block flex;
-
+.heading-box {
+    margin-top: 20px;
 }
 
 .navbar-brand {
     background-color: rgba(0, 0, 0, 0);
-    color: #fff;
+    color: #C0C0C0;
 }
 
 .account {
@@ -42,26 +41,17 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.heading-link {
-    font-family: "Roboto Condenced", sans-serif;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.navbar-nav {
-    position: relative;
-    display: inline-block;
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-.navbar-text {
+.nav-link {
     display: inline-block;
+    padding-right: auto;
+    font-family: "Roboto Condenced", sans-serif;
+    color: #C0C0C0
 }
-
 
 
 /*----------------------- images and logos ----------------*/
