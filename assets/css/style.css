@@ -34,6 +34,14 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.link-container {
+    font-family: "Roboto Condenced", sans-serif;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
 
 
 /*----------------------- images and logos ----------------*/
@@ -61,6 +69,10 @@ body {
     margin-right: 4rem!important;
 }
 
+.logo-image {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /*----------------------- Jumbotron ----------------*/
 
 .jumbotron {
@@ -71,11 +83,14 @@ body {
     text-align: center;
     padding: 4rem 2rem;
     margin-bottom: 20px;
+    color: #fff;
     
 }
 
+
 .history-header {
     font-family: "Roboto Condenced", sans-serif;
+    color: #fff;
 }
 
 .btn-info {
