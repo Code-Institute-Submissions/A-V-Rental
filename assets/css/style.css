@@ -11,16 +11,20 @@ body {
 /*----------------------- Navbar ----------------*/
 
 .head-links {
-    display: inline-block;
+    display: inline-block flex;
+
+}
+
+.navbar-brand {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
 }
 
 .account {
     display: inline-block;
+    align-content: right;
 }
 
-.navbar-collapse {
-    padding-left: auto;
-}
 
 @media only screen and (max-width: 1185px) {
   .navbar-text {
@@ -44,8 +48,17 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.navbar-nav {
+    position: relative;
+    display: inline-block;
+}
+
 .dropdown {
     position: relative;
+    display: inline-block;
+}
+
+.navbar-text {
     display: inline-block;
 }
 
