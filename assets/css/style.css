@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-collapse {
-    padding-left: 20px;
+    padding-left: 400px;
 }
 
 @media only screen and (max-width: 1185px) {
@@ -34,7 +34,7 @@ body {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.link-container {
+.heading-link {
     font-family: "Roboto Condenced", sans-serif;
     color: #fff;
     background-color: rgba(0, 0, 0, 0);
@@ -69,9 +69,6 @@ body {
     margin-right: 4rem!important;
 }
 
-.logo-image {
-    background-color: rgba(0, 0, 0, 0);
-}
 
 /*----------------------- Jumbotron ----------------*/
 
