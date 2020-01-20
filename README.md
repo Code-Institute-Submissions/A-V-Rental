@@ -1,7 +1,2 @@
-# Code Institute
-
-Welcome TriZanf,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+Credits:
+    .Background Image (Yallamotor.com).
