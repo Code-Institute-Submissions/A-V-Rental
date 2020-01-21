@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed&display=swap');
 
 body { 
-  background: url("../logos/benz2.jpg") no-repeat center center fixed; 
+  background: url("../bg-pic/benz2.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
