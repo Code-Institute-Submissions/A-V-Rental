@@ -44,6 +44,7 @@ body {
 
 .bg-dark {
     background-color: rgba(0, 0, 0, 0)!important;
+
 }
 
 .nav-link {
@@ -53,7 +54,15 @@ body {
 
 .navbar-toggler {
     color: #C0C0C0!important;
-    background-color: rgba(192, 192, 192, 0.5)!important;
+    background-color: #4682B4!important;
+}
+
+.dropdown-menu {
+    background-color: #C0C0C0;  
+}
+
+.dropdown-item {
+    color: #000;
 }
 
 button:focus {
@@ -63,7 +72,7 @@ button:focus {
 
 .form-control {
     background-color: rgba(0, 0, 0, 0)!important;
-    color: #C0C0C0!important;
+    color: #fafafa!important;
 }
 
 .navbar-nav {
@@ -133,7 +142,6 @@ button:focus {
     
 }
 
-
 .history-header {
     font-family: "Roboto Condenced", sans-serif;
     color: #C0C0C0;
@@ -162,6 +170,27 @@ button:focus {
 
 .callout {
     padding-top: 1rem;
+}
+
+.table-dark {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: auto auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tr-line {
+    margin: 25px 35px;
+}
+
+.rates-text {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color: #C0C0C0;
+    font-family: "Noto Serif", sans-serif;
 }
 
 
