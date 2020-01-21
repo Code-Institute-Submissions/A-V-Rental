@@ -14,6 +14,7 @@
     <title class="fa fa-car">A&V Car Rental</title>
 </head>
 <body>
+    <div class="opaque-overlay">&nbsp;</div>
 <!------------------------------------------------------------------Nav Items-->
     <div class="container-fluid">
         <div class="row">
@@ -34,9 +35,6 @@
                                 <a class="nav-link hvr-grow active" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hvr-grow active" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link hvr-grow active" href="#">Offers</a>
                             </li>
                             <li class="nav-item dropdown">
@@ -53,32 +51,31 @@
                                     <a class="dropdown-item" href="#">U.K</a> 
                                 </div>
                             </li>
-                        </ul>      
-                                <form class="form-inline my-2 my-lg-0">
-                                    <button class="fa fa-search hvr-grow"><a href="/inventory"></a></button>
-                                </form>
+                        </ul>    
+                            <form class="form-inline my-2 my-lg-0">
+                                <button class="fa fa-search hvr-grow"><a href="/inventory"></a></button>
+                            </form>
                     </div> 
                 </nav>   
             </div>
         </div>
     </div>
-
+<!--Logos--------------------------------------------------->
     <div class="container-fluid logo-container">
             <div class="row">
                 <div class="col-12">
                     <media class="container-flex">
                         <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/benz.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
-                        <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/mazda.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
+                        <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/mazda.jpg" class="rounded-circle mr-2" height="50" width="60"></a>
                         <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/nissan.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
                         <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/tesla.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
                     </div>
                 </div>
             </div>        
         </div>
-<!--Logos--------------------------------------------------->
-    
+
+ <!--History--------------------------------->   
     <section>
-    <!--History--------------------------------->
         <article class="container jumbotron history">
             <section class="history">
                 <h1 class="history-header">Any Car, Anywhere, Anytime!</h1>
@@ -106,8 +103,41 @@
     
     
     </section>
+    <!-------------Packages----------------------------->
+    <section>
+        <divarticle class="container">
+            <table class="table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col"># Of Days </th>
+                        <th scope="col">Packages</th>
+                        <th scope="col">Rates</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1 Day</th>
+                        <td>Daily</td>
+                        <td>€25.99 / Day</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">30 Days</th>
+                        <td>Mothathon</td>
+                        <td>€14.99 / Day</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">90+ Days</th>
+                        <td>Unlimited Gas</td>
+                        <td>€19.99 / Day</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
     <footer>
-    
+
     
     </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
