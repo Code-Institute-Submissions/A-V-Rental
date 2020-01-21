@@ -30,6 +30,8 @@ body {
     border: 2px solid #c0c0c0; 
 }
 
+
+
 .form-inline {
     font-size: 30px;  
 }
@@ -197,7 +199,6 @@ body {
 
 .bg-light {
     height: 65px;
-    color: grey;
 }
 
 
