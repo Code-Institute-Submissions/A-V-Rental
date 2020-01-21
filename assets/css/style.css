@@ -197,5 +197,11 @@ body {
     font-family: "Noto Serif", sans-serif;
 }
 
+/*-------------------------------------Footer-------------------*/
+
+.footer-main {
+    display: inline-block;
+    
+}
 
 
