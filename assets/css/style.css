@@ -18,6 +18,14 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.page-divider {
+    width: 1000px;
+    height: 1px;
+    border: 0;
+    background-color: #C0C0C0;
+    margin-bottom: 40px;
+}
+
 
 /*----------------------- Navbar ----------------*/
 
@@ -28,8 +36,7 @@ body {
     margin-top: 5px;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #c0c0c0;
-    
+    border: 2px solid #c0c0c0; 
 }
 
 .form-inline {
@@ -52,23 +59,20 @@ body {
     color: #c0c0c0!important;
 }
 
-.navbar-toggler {
+.navbar-toggler-icon {
     color: #C0C0C0!important;
-    background-color: #4682B4!important;
+    background-color: #4682b4!important;
 }
 
 .dropdown-menu {
-    background-color: #C0C0C0;  
+    background-color: #C0C0C0;
+    max-width: 100px;
 }
 
 .dropdown-item {
     color: #000;
 }
 
-button:focus {
-    outline: 1px dotted;
-    outline: 0px auto;
-}
 
 .form-control {
     background-color: rgba(0, 0, 0, 0)!important;
