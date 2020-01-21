@@ -6,13 +6,30 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  transition: ease-in 0.5s;
 }
 
 /*----------------------- Navbar ----------------*/
 
 .navbar-brand {
-    color: #c0c0c0!important;
+    color: #fafafa!important;
     font-family: "Noto Serif", sans-serif;
+    background-color: #4682B4;
+    margin-top: 5px;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #c0c0c0;
+    
+}
+
+.form-inline {
+    font-size: 30px;  
+}
+
+.fa-search {
+    color: #c0c0c0!important;
+    background-color: #0000!important;
+    border-color:  #0000!important;
 }
 
 .bg-dark {
@@ -40,7 +57,8 @@ button:focus {
 }
 
 .navbar-nav {
-    margin-left: 60px;
+    margin: auto auto;
+    justify-content: center;
 }
 /*----------------SCSS---------------*/
 

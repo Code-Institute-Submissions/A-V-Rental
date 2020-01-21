@@ -1,2 +1,7 @@
 Credits:
-    .Background Image (Yallamotor.com).
+    Images: 
+        Yallamotor.com
+        mercedesbenzlogos.blogspot.com
+        pinterest.com
+        wallpapercave.com
+        europe.nissannews.com
