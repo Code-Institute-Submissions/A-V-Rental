@@ -211,8 +211,9 @@ body {
 footer {
     background-color: #C0C0C0;
     color: #fafafa;
-    min-height: 100px;
-    margin: 0;
+    max-height: 80px;
+    margin-top: 40px;
+
 }
 
 .social-links {
@@ -233,4 +234,8 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.general-sub {
+    padding-top: 10px;
 }
