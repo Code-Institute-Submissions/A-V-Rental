@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-12">    
                 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                        <a class="navbar-brand" href="/home"><small>A&V Rental</small></a>
+                        <a class="navbar-brand" href="/index.html" target="_blank"><small>A&V Rental</small></a>
                     
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -29,13 +29,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link hvr-grow active" href="#">Rent</a>
+                                <a class="btn nav-link hvr-grow active" data-toggle="modal" data-target="#search">Rent</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hvr-grow active" href="#">Contact</a>
+                                <a class="btn nav-link hvr-grow active" data-toggle="modal" data-target="#contact" >Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hvr-grow active" href="#">Offers</a>
+                                <a class="nav-link hvr-grow active" href="reviews.html" target="_blank">Reviews</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Countries</a>
@@ -53,7 +53,7 @@
                             </li>
                         </ul>    
                             <form class="form-inline my-2 my-lg-0">
-                                <button class="fa fa-search hvr-grow"><a href="/inventory"></a></button>
+                                <button class="fa fa-search hvr-grow" data-toggle="modal" data-target="#search"></button>
                             </form>
                     </div> 
                 </nav>   
@@ -65,10 +65,10 @@
             <div class="row">
                 <div class="col-12">
                     <media class="container-flex">
-                        <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/benz.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
-                        <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/mazda.jpg" class="rounded-circle mr-2" height="50" width="60"></a>
-                        <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/nissan.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
-                        <a href="/inventory" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/tesla.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
+                        <a href="/inventory.html" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/benz.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
+                        <a href="/inventory.html" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/mazda.jpg" class="rounded-circle mr-2" height="50" width="60"></a>
+                        <a href="/inventory.html" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/nissan.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
+                        <a href="/inventory.html" target="_blank" class="hvr-grow logo-image"><img src="../assets/logos/tesla.jpg" class="rounded-circle mr-2" height="50" width="50"></a>
                     </div>
                 </div>
             </div>        
@@ -80,7 +80,7 @@
             <section class="history">
                 <h1 class="history-header">Any Car, Anywhere, Anytime!</h1>
                 <p>Here at Arthur and Vernin we've been trusted to deliver timely
-                    and cost effective services and rentals since 1921. Continuing the 
+                    and cost effective services and rentals since 1951. Continuing the 
                     the tradition and keeping true to our family legacy we have expanded
                     to Central Europe and the USA! Come check us out!
                 </p>
@@ -94,9 +94,7 @@
                 <p>Take advantge of our deals today! For a limited time rent any car
                     , any model and make for a flat daily rate of<bold> €25.99 </bold>
                     <br> <strong>Stop counting miles and Rent a Car!</strong>
-                    <br> <button class="btn btn-info hvr-grow">
-                        <a href="/inventory" class="btn-global">Find a Car</a>
-                    </button>
+                    <br> <button class="btn btn-info hvr-grow" data-toggle="modal" data-target="#signUpModal">Creat Account</button>
                 </p>
             </section>
         </article>
@@ -137,30 +135,144 @@
             </table>
         </article>
     </section>
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link-footer hvr-grow" href="">Legal</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link-footer hvr-grow" href="">Careers</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link-footer hvr-grow" href="">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link-footer hvr-grow" href="">Social</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+    <!-------------------------------------Footer--------------------------------------->
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Legal</h5>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Careers</h5>
+                    <a href="#" target="_blank" class="careers-site">
+                        <i class="fa fa-search-sm" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+<!----------------------------------------------------------------------Contact----->
+        <div class="modal" tabindex="-1" role="dialog" id="contact">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title">Contact Us!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <p> For sale questios: 008-4536-1123</p>
+                            <p> For services: 008-459-00965</p>
+                            <p> For any other inqueries leave your E-mail <br>
+                                or phone number so we can contact you.</p>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="email" class="form-control" id="phone" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail Address</label>
+                                <input type="password" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="comments">Additional Comments</label>
+                                <input type="password" class="form-control" id="comments">
+                            </div>
+                            <button type="submit" class="btn btn-info">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------------------------------------------------------------------Search Inventory----->
+         <div class="modal" tabindex="-1" role="dialog" id="search">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title">Search Inventory</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="make">Make</label>
+                                <input type="email" class="form-control" id="make" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="model">Model</label>
+                                <input type="password" class="form-control" id="model">
+                            </div>
+                            <div class="form-group">
+                                <label for="capacity">Capacity</label>
+                                <input type="password" class="form-control" id="capacity">
+                            </div>
+                            <button type="submit" class="btn btn-info">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!------------------------------------Account Creation--------------------------->
+        
+        
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                     <div class="modal-header">
+                        <h5 class="modal-title">Creat Account</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatPassword">
+                            </div>
+                            <button type="submit" class="btn btn-info">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
