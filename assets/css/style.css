@@ -28,6 +28,11 @@ body {
     font-weight: 500;
 }
 
+.navbar-brand-icon:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 
 .form-inline {
     font-size: 30px;  
