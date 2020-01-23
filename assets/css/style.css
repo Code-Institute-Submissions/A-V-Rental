@@ -38,14 +38,9 @@ body {
     font-size: 30px;  
 }
 
-.fa-search {
-    color: #c0c0c0!important;
-    background-color: #0000!important;
-    border-color:  #0000!important;
-}
 
-.bg-dark {
-    background-color: rgba(0, 0, 0, 0)!important;
+.bg-dark-transparant-bg {
+    background-color: rgba(0, 0, 0, 0);
 
 }
 
