@@ -3,7 +3,6 @@
 body { 
   background: url("../bg-pic/benz2.jpg") center center fixed;
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url("../bg-pic/benz2.jpg");
-  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
