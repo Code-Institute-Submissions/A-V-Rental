@@ -20,8 +20,8 @@ body {
 
 /*----------------------- Navbar ----------------*/
 
-.navbar-brand {
-    color: #fafafa!important;
+.navbar-brand-icon {
+    color: #fafafa;
     font-family: "Noto Serif", sans-serif;
     margin-top: 5px;
     justify-content: center;
