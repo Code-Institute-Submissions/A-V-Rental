@@ -190,7 +190,7 @@ body {
 footer {
     background-color: #C0C0C0;
     color: #fafafa;
-    max-height: 80px;
+    min-height: 80px;
     margin-top: 40px;
 
 }
