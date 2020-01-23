@@ -44,9 +44,9 @@ body {
 
 }
 
-.nav-link {
+.nav-link-text {
     margin-right: 70px;
-    color: #c0c0c0!important;
+    color: #c0c0c0;
 }
 
 .navbar-toggler-icon {
