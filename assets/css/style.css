@@ -11,16 +11,6 @@ body {
 }
 
 
-
-/*.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}*/
-
 /*----------------------- Navbar ----------------*/
 
 .navbar-brand-icon {
@@ -201,6 +191,10 @@ footer {
 
 }
 
+.col-sm-4 {
+    padding: 15px 15px;
+    text-align: center;
+}
 .social-links {
     padding-bottom: 15px;
 }
