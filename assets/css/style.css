@@ -2,7 +2,7 @@
 
 body { 
   background: url("../bg-pic/benz2.jpg") center center fixed;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url("../bg-pic/benz2.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url("../bg-pic/benz2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,18 +38,15 @@ body {
 }
 
 .nav-link-text {
-    margin-right: 70px;
-    color: #c0c0c0;
+    margin-right: 90px;
+    color: #fff;
 }
 
 .navbar-toggler-icon {
-    color: #C0C0C0;
+    color: #fff;
     background-color: #C0C0C0;
     border: 0;
 }
-
-
-
 
 .dropdown-menu {
     background-color: #C0C0C0;
@@ -109,13 +106,21 @@ body {
     position: relative;
     padding: 4rem 2rem;
     margin-bottom: 20px;
-    color: #C0C0C0;
+    color: #fff;
     
+}
+
+.page-divider {
+    width: 80%;
+    height: 2px;
+    color: #fff;
+    position: relative;
+    z-index: 9999;
 }
 
 .history-header {
     font-family: "Roboto Condenced", sans-serif;
-    color: #C0C0C0;
+    color: #fff;
 }
 
 .btn-info {
@@ -160,7 +165,7 @@ body {
     text-align: center;
     justify-content: center;
     position: relative;
-    color: #C0C0C0;
+    color: #fff;
     font-family: "Noto Serif", sans-serif;
 }
 
@@ -181,14 +186,11 @@ body {
 }
 
 }
-/*-------------------------------------Footer-------------------*/
 
 footer {
-    background-color: #C0C0C0;
-    color: #000;
+    background-color: rgba (255,255,255,1); 
     min-height: 80px;
-    margin-top: 40px;
-
+    margin-top: 100px;
 }
 
 .col-sm-4 {
@@ -201,7 +203,7 @@ footer {
 }
 
 .general-subtext {
-    padding-top: 10px;
     font-size: 12px;
-    color: #000;
+    color: #fff;
+    padding-bottom: 0;
 }
