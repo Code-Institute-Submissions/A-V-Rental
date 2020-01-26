@@ -226,4 +226,8 @@ footer {
 .contact-head {
     color: #fff;
 }
+
+.col-md-4 {
+    display: inline-block;
+}
     
