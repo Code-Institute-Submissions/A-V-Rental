@@ -211,7 +211,7 @@ footer {
 /*-------------------------------------contact page-------------------*/
 
 .modal-body-contact {
-    background-color: #C0C0C0;
+    background-color: rgba (0, 0, 0, 0.5);
 }
 
 .contact-form {
@@ -220,5 +220,10 @@ footer {
 
 .contact-text {
     margin: 15px 10px;
+    color: #fff;
+}
+
+.contact-head {
+    color: #fff;
 }
     
