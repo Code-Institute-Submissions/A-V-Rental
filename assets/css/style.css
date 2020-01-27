@@ -62,6 +62,10 @@ body {
     color: #000;
 }
 
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 
 .form-control {
     background-color: rgba(0, 0, 0, 0)!important;
@@ -211,6 +215,11 @@ footer {
     font-size: 12px;
     color: #fff;
     padding-bottom: 0;
+}
+
+.general-subtext:hover {
+    color: #C0C0C0;
+    text-decoration: none;
 }
 
 /*-------------------------------------contact page-------------------*/
