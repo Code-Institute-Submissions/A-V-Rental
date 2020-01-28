@@ -21,7 +21,7 @@
 <body>
 
 	<!------------------------------------------------------------------Nav Items-->
-	<div class="container-fluid">
+	<div class="container-fluid nav-main-cont">
 		<div class="row">
 			<div class="col-12">
 				<nav class="navbar navbar-expand-lg navbar-light bg-dark-transparant-bg">
@@ -61,6 +61,7 @@
 								</div>
 							</li>
 						</ul>
+                        <button class="btn btn-info login-button hvr-grow" data-toggle="modal" data-target="#loginmodal">Sign In</button>
 					</div>
 				</nav>
 			</div>
@@ -96,7 +97,7 @@
 						to Central Europe and the USA! Come check us out!
 					</p>
 					<button class="btn btn-info btn-sm hvr-grow">
-                            <a href="#" class="btn-global">Read More</a>
+                            <a href="#" class="btn-global">Read More</a></button>
                 </section>
             </article>
         </div>
@@ -163,32 +164,39 @@
 			<div class="col-8">
 				<ul class="list-unstyled">
 					<li class="media">
-						<img src="/assets/msc-pics/man2.jpg" class="review-img mr-2">
+						<img src="/assets/msc-pics/man2.jpg" class="review-img mr-2 rounded-circle">
 						<div class="media-body review-text">
-                            <br>
-							<h5 class="mt-0 mb-1">Richard Pikards<small class="review-ex"> Dallas, Texas (Member since 2006)</small></h5>
-							<p class="review-etc"> I have relied on A&V for my car rental and servers since 2006 and have never been disapointed.
-                            With a great selection of cars and their flat daily rates I have never needed to go anywhere else! </p>
+							<br>
+							<h5 class="mt-0 mb-1">Richard
+								Pikards<small class="review-ex"> Dallas, Texas (Member since 2006)</small></h5>
+							<p class="review-etc"> I have relied on A&V for my car rental and servers since 2006 and
+								have never been disapointed.
+								With a great selection of cars and their flat daily rates I have never needed to go
+								anywhere else! </p>
 						</div>
 					</li>
 					<li class="media my-4">
-						<img src="/assets/msc-pics/woman.jpg" class="review-img mr-2">
+						<img src="/assets/msc-pics/woman.jpg" class="review-img mr-2 rounded-circle">
 						<div class="media-body review-text">
-                            <br>
-							<h5 class="mt-0 mb-1">Aimee Longhall<small class="review-ex"> Dublin, Irland (Member since 2001)</small> </h5>
-							<p class="review-etc"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-							Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
-							ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
+							<br>
+							<h5 class="mt-0 mb-1">Aimee
+								Longhall<small class="review-ex"> Dublin, Irland (Member since 2001)</small> </h5>
+							<p class="review-etc"> I was introduced to A&V by a friend and have never looked back. Their
+								flat daily rates and
+								generous services simply have no competitors! </p>
 						</div>
 					</li>
 					<li class="media">
-						<img src="/assets/msc-pics/woman2.jpg" class="review-img mr-2">
+						<img src="/assets/msc-pics/woman2.jpg" class="review-img mr-2 rounded-circle">
 						<div class="media-body review-text">
-                            <br>
-							<h5 class="mt-0 mb-1">Tisha Stronberg<small class="review-ex"> Stockholm, Sweden (Member since 2014)</small> </h5>
-							<p class="review-etc"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-							Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
-							ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+							<br>
+							<h5 class="mt-0 mb-1">Tisha
+								Stronberg<small class="review-ex"> Stockholm, Sweden (Member since 2014)</small> </h5>
+							<p class="review-etc"> As an international corporate adviser I am always on the move, A&V is
+								my go to for my rental needs.
+								I can also always count on them for being the only car rental place that do not limit
+								travel miles! Only wish they
+								had locations in the Middle East.</p>
 						</div>
 					</li>
 				</ul>
@@ -310,6 +318,33 @@
 		</div>
 	</div>
 
+    <!------------------------------------Log In--------------------------->
+    <div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Log In</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" requiered>
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password">
+                            </div>
+								<button type="submit" class="btn btn-info">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!------------------------------------Account Creation--------------------------->
 
 
@@ -326,7 +361,7 @@
 					<form>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" requiered>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
 						<div class="form-group">
