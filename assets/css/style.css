@@ -190,6 +190,14 @@ body {
     width: 84px;
     height: 84px;
 }
+
+.review-text {
+    color: #fff;
+}
+
+.reviews-cont {
+    margin-top: 60px;
+}
 /*-------------------------------------Footer-------------------*/
 
 .nav-link-footer {
