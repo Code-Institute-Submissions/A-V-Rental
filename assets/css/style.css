@@ -270,3 +270,20 @@ footer {
     text-align: center;
 }
     
+/*-------------------------------------Reviews-------------------*/
+
+.reviews-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: none;
+}
+
+.review-ex {
+    font-family: "Noto Serif", sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.review-etc {
+    margin-top: 25px;
+}
