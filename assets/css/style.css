@@ -99,8 +99,13 @@ body {
   }
 }
 
-.mr-2, .mx-2 {
-    margin-right: 4rem!important;
+.logo-image-round {
+    height: 55px;
+    width: 55px;
+}
+
+.logo-img-cont {
+    margin-right: 55px;
 }
 
 
@@ -271,9 +276,6 @@ footer {
 }
     
 /*-------------------------------------Reviews-------------------*/
-.nav-main-cont {
-    position: sticky;
-}
 
 .reviews-button {
     background-color: rgba(0, 0, 0, 0);
