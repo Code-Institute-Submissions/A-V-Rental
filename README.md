@@ -16,14 +16,14 @@ Credits:
 
 Next Section:
 
-** J-quary before bootstrap  
- Link - Scripts bottom
- remove empty paragraphs
+
+ remove empty paragraphs*****
  dont shove all value in short hand back-ground
- link the fonts in html instead of import
- use ancher instead of button for reviews
+ 
+ 
+ 
   
-something i did not code should be on the different page
+
 
 square button
 

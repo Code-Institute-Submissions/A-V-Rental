@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed&display=swap');
+
 
 body { 
   background: url("../bg-pic/benz2.jpg") center center fixed;
@@ -77,7 +77,6 @@ body {
     justify-content: center;
 }
 
-
 /*-----------------------logos ----------------*/
 
 .media {
@@ -141,8 +140,8 @@ body {
 .btn-info {
     background-color: #4682B4;
     margin-top: 5px;
-    justify-content: center;
-    border-radius: 50%;
+    
+    
 }
 
 .btn-info:hover {
@@ -273,6 +272,10 @@ footer {
 }
 
 .card-text, .contact-text {
+    text-align: center;
+}
+
+.form-group {
     text-align: center;
 }
     
