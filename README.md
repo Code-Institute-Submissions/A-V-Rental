@@ -24,7 +24,7 @@ Next Section:
 
 <div>
 
-<a href="https://ibb.co/vk9LtKX"> Home Page </a>
+<img href="https://ibb.co/vk9LtKX">
  
 </div> 
  
