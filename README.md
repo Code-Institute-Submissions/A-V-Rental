@@ -25,9 +25,7 @@ Next Section:
   
 
 
-square button
 
-fix button
 
 drop-down aligned
 
@@ -35,6 +33,8 @@ take off hover effect from footer
 
 social in other row
 
-bring reviews to the center 
+ 
+
+
 
 

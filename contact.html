@@ -95,15 +95,15 @@
                                 or phone number so we can contact you.</p>
 							<div class="form-group">
 								<label class="contact-text" for="phone">Phone Number</label>
-								<input type="email" class="form-control" id="phone" aria-describedby="emailHelp">
+								<input type="email" class="form-control" id="phone-contact" aria-describedby="emailHelp">
                             </div>
 								<div class="form-group">
 									<label class="contact-text" for="email">E-mail Address</label>
-									<input type="email" class="form-control" id="email">
+									<input type="email" class="form-control" id="email-contact">
                                 </div>
 									<div class="form-group">
 										<label class="contact-text" for="comments">Additional Comments</label>
-										<input type="email" class="form-control" id="comments">
+										<input type="email" class="form-control" id="comments-contact">
                                     </div>
 										<button type="submit" class="btn btn-info">Submit</button>
 					</form>
@@ -122,6 +122,33 @@
 		</div>
 	</div>
 
+    <!------------------------------------Log In--------------------------->
+    <div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Log In</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="email-login" aria-describedby="email-login" requiered>
+							<small id="email-login" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password-login">
+                            </div>
+								<button type="submit" class="btn btn-info">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-------------------------------------Footer--------------------------------------->
 	<div class="container">
