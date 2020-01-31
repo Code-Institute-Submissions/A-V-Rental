@@ -3,7 +3,13 @@
 </h1>
 
 <h2 align="center">
-    Arthur and Vernon, The premier Car Rental since 1951. 
+    Arthur and Vernon, The premier Car Rental Company since 1951, based in Dublin.
+    <br>
+</h2> 
+    <p> [Check it out!](https://trizanf.github.io/A-V-Rental/) 
+
+
+
 
 
 

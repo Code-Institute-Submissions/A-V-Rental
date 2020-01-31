@@ -307,3 +307,8 @@ footer {
 .card-text  {
     color: #fff;
 }
+
+.card-img-top-invent {
+    width: 400px;
+    height: 250px;
+}
