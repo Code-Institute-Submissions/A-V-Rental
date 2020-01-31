@@ -21,6 +21,11 @@ body {
     font-weight: 500;
 }
 
+.a-v-brand-logo {
+    height: 40px;
+    width: 60px
+}
+
 .navbar-brand-icon:hover {
     text-decoration: none;
     color: #fafafa;
