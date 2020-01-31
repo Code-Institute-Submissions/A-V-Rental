@@ -9,7 +9,7 @@
 <div align= "center">
     <p> A&V Rental website is a place where customers can rent and lease vehichles of different makes and models <br>
     for a flat daily rate, and lease them if they wish so without any milage restrictions or fees. </p>
-    <p> [Check it out!](https://trizanf.github.io/A-V-Rental/) </p> 
+    <p> <a href=(https://trizanf.github.io/A-V-Rental/)>[Check it out!]</a> </p> 
 </div>
 
 
