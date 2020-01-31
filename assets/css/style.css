@@ -27,13 +27,8 @@ body {
 }
 
 
-.form-inline {
-    font-size: 30px;  
-}
-
-
 .bg-dark-transparant-bg {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.25);
 
 }
 
@@ -47,10 +42,14 @@ body {
     text-decoration: none;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler {
     color: #fff;
-    background-color: #C0C0C0;
+    background-color: #4682B4;
     border: 0;
+}
+
+.navbar-toggler-icon {
+    color: #000;
 }
 
 .dropdown-menu {
@@ -236,11 +235,6 @@ footer {
     font-size: 12px;
     color: #fff;
     padding-bottom: 0;
-}
-
-.general-subtext:hover {
-    color: #C0C0C0;
-    text-decoration: none;
 }
 
 /*-------------------------------------contact page-------------------*/

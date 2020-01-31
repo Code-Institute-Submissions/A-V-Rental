@@ -1,3 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Credits:
     Images: 
         Yallamotor.com
@@ -14,30 +60,17 @@ Credits:
         
         pexels.com
 
-Next Section:
-
-
- remove empty paragraphs*****
- dont shove all value in short hand back-ground
-
- ##title##
-
-<div>
-
-<img href="https://ibb.co/vk9LtKX">
- 
-</div> 
  
   
 
 
 
 
-drop-down aligned
 
-take off hover effect from footer
 
-social in other row
+
+
+
 
  
 
