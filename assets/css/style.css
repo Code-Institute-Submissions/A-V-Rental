@@ -67,10 +67,6 @@ body {
 }
 
 
-.form-control {
-    background-color: rgba(0, 0, 0, 0)!important;
-    color: #fafafa!important;
-}
 
 .navbar-nav {
     margin: auto auto;
@@ -275,6 +271,8 @@ footer {
     display: none;
 }
 
+}
+
 
     
 /*-------------------------------------Reviews-------------------*/
@@ -301,3 +299,17 @@ footer {
 }
 /*-------------------------------------Inventory-------------------*/
 
+.card-container {
+   margin: auto auto;
+}
+
+.main-inventory {
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    width: 100%
+}
+
+.card-text  {
+    color: #fff;
+}
