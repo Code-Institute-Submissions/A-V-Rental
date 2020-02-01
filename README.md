@@ -6,12 +6,12 @@
     Arthur and Vernon, The premier Car Rental Company since 1951, based in Dublin.
     <br>
 </h2> 
-<div align= "center">
+<h3 align= "center">
     
      A&V Rental website is a place where customers can rent and lease vehichles of different makes and models
     for a flat daily rate, and lease them if they wish so without any millage restrictions or fees. 
 
-</div>
+</h3>
 
 ## Table of Contents
 1. [**UX**](#ux)
