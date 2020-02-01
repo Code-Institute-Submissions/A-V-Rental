@@ -144,73 +144,75 @@ ofcourse be attached as snippets.
 3. **Other Improvments**
     -Improving the footer by linking social links to an examples social media page.
     -Custome coding with JQuery to improve the overall feel of the website.
-    -Expanding the inventory items. 
+    -Expanding the inventory items.
+
+## Technologies Used
+
+- The main technologies used in this project were: HTML5, CSS3, and basic Javascript.
+- [JQuery](https://jquery.com)
+    - This project used **JQuery**.
+- [Cloud9](https://github.com/) 
+    - Creator implemented **Github** for building the website.
+- [Bootstrap](https://www.bootstrapcdn.com/)
+    - The project used **Bootstrap** to creat responsive UX and simplify the coding process.
+    - The project utilised [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+- [Google Fonts](https://fonts.google.com/)
+    - The project used **Google fonts** to style the text in the website.
+
+## Testing
+
+- In the testing process **W3C Markup Validation Service** was used [W3C Markup](https://validator.w3.org/).
+- The developer also utilised other browsers in incognito-mode to check for any errors that were cached.
+- Chrome developer tools were also used in testing and searching for typos and missused code.
+
+## Deployment 
+
+In making of this project Gitpod IDE was used. Github was used for pushing the code to a remote access point.
+To run this locally:
+
+1. Log into GitHub.
+2. In the listings for repos select Trizanf/A-V-Rental.
+3. On the top right of the screen click on "Settings"
+4. Scroll to near the end of the page to "GitHub Pages".
+5. From the "Source" dropdown select "Master Branch".
+6. The page should self refresh and the link to the project will be visible.
+7. Only master branch is usable and present.
+
+## How to run this project locally 
+
+1. Follow [A-V-Rental Github repository](https://github.com/TriZanf/A-V-Rental). 
+2. On the right hand side, click on the green "Clone" button.
+3. Use the HTTPS link, as no SSH keys are provided yet.
+4. Open the Git, or download directly to PC and open Zip file in own IDE.
+
+
+## Credits
+
+### Images: 
+    Yallamotor.com, mercedesbenzlogos.blogspot.com, pinterest.com, wallpapercave.com, europe.nissannews.com,
+    istockphoto.com, pexels.com. 
+
+### Mentor assitance 
+    - Antonija Simic
+
+### Inspiration 
+    - Apple.com 
+    - Various CI Student Repositories.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Credits:
-    Images: 
-        Yallamotor.com
-
-        mercedesbenzlogos.blogspot.com
+    
         
-        pinterest.com
+    
         
-        wallpapercave.com
         
-        europe.nissannews.com
         
-        istockphoto.com
         
-        pexels.com
+        
+        
+        
+        
 
  
   
