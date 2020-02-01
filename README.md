@@ -46,27 +46,27 @@ concscience residance of the city that the A&V vendor is located at that prefer 
 
 Needs in mind were:
 
-1.Offering affordable rates.
-2.Large selection of cars.
-3.Veriety of makes and models, including fuel, eg. petrol, gasoline, or electric.
-4.Demonstration of ease of access to local dealer and garages.
-5.Demonstration of local of the dealerships to make it easier for clients to pick up and drop off the rentals.
+1.  Offering affordable rates.
+2.  Large selection of cars.
+3.  Veriety of makes and models, including fuel, eg. petrol, gasoline, or electric.
+4.  Demonstration of ease of access to local dealer and garages.
+5.  Demonstration of local of the dealerships to make it easier for clients to pick up and drop off the rentals.
 
 ### Creator Goals
 
-1.Developing a resposive website with the least amount of clutter to ease navigation.
-2.Straight forward programming of the website to make it clear what the vendor has to offer.
-3.Easy to read text and sentences explaining why A&V is a good option.
-4.A task that inspires the developer and makes the job enjoable.
+1. Developing a resposive website with the least amount of clutter to ease navigation.
+2. Straight forward programming of the website to make it clear what the vendor has to offer.
+3. Easy to read text and sentences explaining why A&V is a good option.
+4. A task that inspires the developer and makes the job enjoable.
 
 ### Customer Stories
 
 If I was a potential client I would like the website to:
 
-1.Make it clear and intuitive how to nagivigate and make use of.
-2.Have clear options that guide me through the proccess of making use of the services.
-3.Be Visually apealing and have good layouts and color codes.
-4.Make it easy to get in touch with a person and state questions or concerns, e.g phone numbers and addresses.
+1. Make it clear and intuitive how to nagivigate and make use of.
+2. Have clear options that guide me through the proccess of making use of the services.
+3. Be Visually apealing and have good layouts and color codes.
+4. Make it easy to get in touch with a person and state questions or concerns, e.g phone numbers and addresses.
 
 
 ### Design picks 
@@ -143,7 +143,9 @@ ofcourse be attached as snippets.
 
 3. **Other Improvments**
     -Improving the footer by linking social links to an examples social media page.
+    
     -Custome coding with JQuery to improve the overall feel of the website.
+    
     -Expanding the inventory items.
 
 ## Technologies Used
