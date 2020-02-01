@@ -132,6 +132,20 @@ ofcourse be attached as snippets.
 
 <div align="center"><img src="https://i.ibb.co/28SwGKb/Countries.png" alt="Countries" border="0"></div>
 
+### Features Left to Implement
+
+1. **Implementation of Java Script**
+    -Java Script can be added to add extra functionality to forms such as, searching the inventory, and send data through
+     coding.
+
+2. **Adding google-maps**
+    -Improving forms for actual searches of locations.
+
+3. **Other Improvments**
+    -Improving the footer by linking social links to an examples social media page.
+    -Custome coding with JQuery to improve the overall feel of the website.
+    -Expanding the inventory items. 
+
 
 
 
